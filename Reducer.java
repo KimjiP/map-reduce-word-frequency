@@ -34,7 +34,7 @@ public class Reducer {
  
  public void save(){ 
     try {
-         FileWriter f = new FileWriter("C:\\Users\\kimji\\Desktop\\big data\\3rd assignment\\result.txt");
+         FileWriter f = new FileWriter("\\result.txt");
          for (Entry<String, Integer> entry : sorted.entrySet()) {
              f.write(entry.getKey() + ": " + entry.getValue() + "\n");
          }
