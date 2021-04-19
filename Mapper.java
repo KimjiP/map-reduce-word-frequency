@@ -11,7 +11,7 @@ import java.util.Scanner;
  */
 public class Mapper {
     
-    public static String fileLocation = "C:\\Users\\kimji\\Desktop\\big data\\3rd assignment\\workshop.txt";
+    public static String fileLocation = "\\workshop.txt";
     private ArrayList<String> a = new ArrayList<String>();
     
     public ArrayList<String> getList(){
